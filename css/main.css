@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+body {
+    background-image: url(/html/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icon_home{
+    position: absolute;
+    padding: 1%;
+    width: 4%;
+    cursor: pointer;
+}
+
+.head_text{
+    font-size: 18px;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight:bold;
+}
+
+.container_login{
+    margin-top: -7%;
+    margin-left: 80%;
+}
+
+.head_text_login {
+    background-color: rgb(176, 176, 253);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight:bold;
+    transition: 1.5s ease;
+}
+
+.head_text_login:hover{
+    transform: scale(1.2);
+}
+
+.link_head{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link_head_login{
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main_container{
+    padding: 2%;
+    border: 1px solid rgb(176, 176, 253);
+    border-radius: 10px;
+    margin: 8%;
+    background-color: rgb(228, 228, 252);
+}
+
+.main_container_login{
+    padding: 4%;
+    border: 1px solid rgb(176, 176, 253);
+    border-radius: 10px;
+    margin: 35%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    background-color: rgb(228, 228, 252);
+}
+
+.feedback_container{
+    background-color: rgb(228, 228, 252);
+    margin: 9%;
+    position: relative;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1.5s ease;
+}
+.feedback_container:hover{
+    transform: scale(1.02);
+}
+
+
+.feed_image{
+    width: 20%;
+}
+
+.feed_text{
+    font-family: 'Poppins', sans-serif;
+    margin: 8%;
+    position: absolute;
+    display: inline;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1{
+    margin: 2%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(144, 144, 255);
+    font-style: italic;
+}
+
+h2{
+    margin: 4%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    text-align: center;
+    margin: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-size: normal;
+    font-weight: bold;
+    margin: 4%;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imagem {
+    border-radius: 10px;
+    background-color: rgb(176, 176, 253);
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    margin: 1%;
+    transition:  1.2s ease;
+}
+
+.imagem:hover{
+    transform: scale(1.1);
+}
+
+.itens{
+    margin-top: -20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 150px;
+    border: 1px solid rgb(176, 176, 253);
+}
+
+.itens_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.botao_logar{
+    margin-top: -20px;
+    position: relative;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border: 1px solid rgb(176, 176, 253);
+    border-radius: 8px;
+    background-color: rgb(176, 176, 253);
+    cursor: pointer;
+    transition: transform 1.5s ease;
+    z-index: 1;
+}
+.botao_logar:hover {
+    background-color: rgb(144, 144, 255);
+    transform: scale(1.2);
+}
+form {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+#nome{
+    padding: 4px;
+    border-radius: 10px;
+}
+#sobrenome{
+    padding: 4px;
+    border-radius: 10px;
+}
+#email{
+    padding: 4px;
+    border-radius: 10px;
+}
+#password{
+    padding: 4px;
+    border-radius: 10px;
+}
+.icon_image{
+    text-align: center;
+}
+
+img{
+    cursor: pointer;
+    padding: 5%;
+}
