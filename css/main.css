@@ -79,6 +79,14 @@ body {
     background-color: rgb(228, 228, 252);
 }
 
+.main_container_user{
+    padding: 2%;
+    border: 1px solid rgb(176, 176, 253);
+    border-radius: 10px;
+    margin: 8%;
+    background-color: rgb(228, 228, 252);
+}
+
 .feedback_container{
     background-color: rgb(228, 228, 252);
     margin: 9%;
@@ -115,10 +123,57 @@ body {
 }
 
 .barra_ferramenta{
-    padding: 1%;
+    font-family: 'Poppins';
+    display: inline-block;
+    width: 70px;
+    height: 100vh;
+    background: rgb(255, 255, 255);  
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.barra_ferramenta.active{
+    width: 200px;
+}
+
+
+.barra_ferramenta:hover{
+    background-color: rgb(185, 185, 255);
+}
+
+.toggle-btn{
     background-color: rgb(176, 176, 253);
-    visibility:initial;
+    border: none;
+    color: rgb(176, 176, 253);
+    font-size: 24px;
+    margin: 15px;
     cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: rgb(176, 176, 253);
+}
+
+.text{
+    display: none;
+}
+
+.barra_ferramenta.active .text{
+    display: inline;
 }
 
 h1{
